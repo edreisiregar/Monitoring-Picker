@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("images/infokes.jpg");
+  
+
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-page {
+  width: 450px;
+  padding: 15% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 420px;
+  height: 470px;
+  border-radius: 40px;
+  margin: -80px auto 100px;
+  opacity: 0.9;
+  padding: 60px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 300px;
+  border: 0;
+  border-radius: 10px;
+  margin: 10px -65px 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 300px;
+  border: 0;
+  margin: 10px -65px 15px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="bg-image">
+    <div class="login-page">
+        <div class="form">
+            <h1>Login</h1>
+            <p>
+                 Monitoring BPJS pCare 4.0
+            </p>
+            <p></p>
+          <form class="login-form">
+            <input type="text" placeholder="Username or email addres"/>
+            <input type="password" placeholder="Password"/>
+            <button>login</button>
+            
+          </form>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-sm-3">
+            <div class="col-md-5">
+                    <div class="card shadow-sm">
+                        <img src="images/infokes1.png" class="rounded" alt="...">         
+                  </div>
+            </div>
+        <div class="col-md-5">
+            <div class="card shadow-sm">
+                <img src="images/bpjs.png" class="rounded" alt="...">         
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+</div> 
+
+
+
+</body>
+</html>
+
